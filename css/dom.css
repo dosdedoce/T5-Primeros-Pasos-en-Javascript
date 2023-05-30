@@ -1,0 +1,32 @@
+#codeButton{
+        box-sizing: border-box;
+        height: 50px;
+        border: none;
+        background-color: darkorange;
+        color: #fff;
+        padding: 9px 18px;
+        font-family: 'Instrument Sans', sans-serif;
+}
+#codeButton:hover{
+        border:1px solid darkorange;
+        background-color: #fff;
+        color:darkorange;
+}
+#buttonHidden{
+        box-sizing: border-box;
+        height: 50px;
+        width: 200px;
+        border: none;
+        background-color: darkorange;
+        color: #fff;
+        font-family: 'Instrument Sans', sans-serif;
+        text-align: center;
+        line-height: 50px;
+        font-size: 0.8rem;
+        font-weight: 400;
+}
+#buttonHidden:hover{
+        border:1px solid darkorange;
+        background-color: #fff;
+        color:darkorange;
+}

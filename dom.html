@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Primeros Pasos en Javascript</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/dom.css">
+</head>
+<body>
+        <header>
+                <h1>Primeros Pasos - DOM</h1>
+        </header>
+        <main>
+                <section id="darthVader">
+
+                </section>
+                <section>
+                        <p>Párrafo escrito en el html</p>  
+                        <p>Párrafo que no se va a tocar</p>  
+                </section>
+                <section>
+                        <h3 id="buttonHidden">Ocultar</h3>
+                        <div id="boxHidden">
+                                <p>Vale más hacer y arrepentirse, que no hacer y arrepentirse.</p>
+                        </div>
+                </section>
+                <section id="formulario">
+                        <form>  
+                                <h3>Formulario</h3>
+                                <p>Tu datos:</p>
+                                <label for="nombre">Nombre:</label>
+                                <input type="text" id="nombre" name="nombre" required>
+                                <br>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                                <br>
+                                <label for="movil">Teléfono móvil:</label>
+                                <input type="tel" id="movil" name="movil" required>
+                                <br>
+                                
+                                <p>Tu lenguaje a usar:</p>
+                                <input type="radio" id="html" name="lenguaje" value="HTML">
+                                <label for="html">HTML</label><br>
+                                <input type="radio" id="css" name="lenguaje" value="CSS">
+                                <label for="css">CSS</label><br>
+                                <input type="radio" id="javascript" name="lenguaje" value="JavaScript">
+                                <label for="javascript">JavaScript</label>
+                                <br>
+
+                                <p>Tus Idiomas</p>
+                                <input type="checkbox" id="idiomaUK" name="idiomaUK" value="uk">
+                                <label for="idiomaUK"> Inglés</label><br>
+                                <input type="checkbox" id="idiomaFR" name="idiomaFR" value="fr">
+                                <label for="idiomaFR"> Francés</label><br>
+                                <input type="checkbox" id="idiomaDE" name="idiomaDE" value="de">
+                                <label for="idiomaDE"> Alemán</label><br>
+                                <input type="checkbox" id="idiomaSP" name="idiomaSP" value="sp">
+                                <label for="idiomaSP"> Español</label><br><br>
+
+                                <p>Tus sistemas operativos</p>
+                                <select id="so" name="so" multiple>s
+                                        <option value="w7">Windows 7</option>
+                                        <option value="w10">Windows 10</option>
+                                        <option value="w11">Windows 11</option>
+                                        <option value="linux">Linux</option>
+                                        <option value="macOS">Mac OS</option>
+                                        <option value="android">Android</option>
+                                </select>
+                                <br><br>
+                                <button type="submit">Enviar</button>
+                        </form>
+                </section>
+                <section id="tablaSection">
+                        
+                </section>
+
+        </main>
+</body>
+        <script src="js/function.js"></script>
+        <script src="js/dom.js"></script>
+</html>
